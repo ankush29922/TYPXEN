@@ -1,0 +1,416 @@
+{
+  "format": "Typx ESP32-CAM Protocol V1 golden vectors",
+  "privacy": "Synthetic source only; no recorded or user source text.",
+  "valid": [
+    {
+      "name": "small-standard",
+      "fileName": "small-standard.bin",
+      "syntheticSource": "int x=1;",
+      "cadence": "standard",
+      "seed": null,
+      "jobIdHex": "101112131415161718191a1b1c1d1e1f",
+      "byteLength": 448,
+      "actionCount": 11,
+      "totalSourceCharacters": 8,
+      "totalExpectedDurationUs": 2018000,
+      "payloadSha256": "a59a8aea945a245fd4a1768d5e6c389970259ba083151afc19a2350df493271c",
+      "encodedSha256": "6a50f639ad7fa1da4d738179f0aa4c26ea4947720a5657bce4acdde68a9f9cea",
+      "records": [
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 200000,
+          "sourceIndex": 1,
+          "modifier": 0,
+          "keyCode": 12,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 200000,
+          "sourceIndex": 2,
+          "modifier": 0,
+          "keyCode": 17,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 200000,
+          "sourceIndex": 3,
+          "modifier": 0,
+          "keyCode": 23,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 290000,
+          "sourceIndex": 4,
+          "modifier": 0,
+          "keyCode": 44,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 200000,
+          "sourceIndex": 5,
+          "modifier": 0,
+          "keyCode": 27,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 200000,
+          "sourceIndex": 6,
+          "modifier": 0,
+          "keyCode": 46,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 200000,
+          "sourceIndex": 7,
+          "modifier": 0,
+          "keyCode": 30,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 290000,
+          "sourceIndex": 8,
+          "modifier": 0,
+          "keyCode": 51,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 30000,
+          "sourceIndex": 8,
+          "modifier": 0,
+          "keyCode": 41,
+          "flags": 14
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 90000,
+          "sourceIndex": 8,
+          "modifier": 3,
+          "keyCode": 77,
+          "flags": 14
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 30000,
+          "sourceIndex": 8,
+          "modifier": 0,
+          "keyCode": 76,
+          "flags": 14
+        }
+      ]
+    },
+    {
+      "name": "deterministic-personal",
+      "fileName": "deterministic-personal.bin",
+      "syntheticSource": "print(\"Hi\")",
+      "cadence": "personal",
+      "seed": 305419896,
+      "jobIdHex": "303132333435363738393a3b3c3d3e3f",
+      "byteLength": 544,
+      "actionCount": 14,
+      "totalSourceCharacters": 11,
+      "totalExpectedDurationUs": 2422812,
+      "payloadSha256": "4cf8d2df52ae2648b50e740751284a2763b8aa001d45f5d4fe03d510a1f33127",
+      "encodedSha256": "4a67a2b75cf812e33c08ab99b33266931e67d3ccdd9b88592a0a204a4383ca76",
+      "records": [
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 0,
+          "sourceIndex": 1,
+          "modifier": 0,
+          "keyCode": 19,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 508982,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 0,
+          "sourceIndex": 2,
+          "modifier": 0,
+          "keyCode": 21,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 394841,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 0,
+          "sourceIndex": 3,
+          "modifier": 0,
+          "keyCode": 12,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 124557,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 0,
+          "sourceIndex": 4,
+          "modifier": 0,
+          "keyCode": 17,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 108316,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 0,
+          "sourceIndex": 5,
+          "modifier": 0,
+          "keyCode": 23,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 148579,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 0,
+          "sourceIndex": 6,
+          "modifier": 2,
+          "keyCode": 38,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 151819,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 0,
+          "sourceIndex": 7,
+          "modifier": 2,
+          "keyCode": 52,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 209266,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 0,
+          "sourceIndex": 8,
+          "modifier": 2,
+          "keyCode": 11,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 120873,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 0,
+          "sourceIndex": 9,
+          "modifier": 0,
+          "keyCode": 12,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 135765,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 0,
+          "sourceIndex": 10,
+          "modifier": 2,
+          "keyCode": 52,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 167814,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 0,
+          "sourceIndex": 11,
+          "modifier": 2,
+          "keyCode": 39,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 60000,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 30000,
+          "sourceIndex": 11,
+          "modifier": 0,
+          "keyCode": 41,
+          "flags": 14
+        },
+        {
+          "waitBeforeKeyDownUs": 30000,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 90000,
+          "sourceIndex": 11,
+          "modifier": 3,
+          "keyCode": 77,
+          "flags": 14
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 30000,
+          "sourceIndex": 11,
+          "modifier": 0,
+          "keyCode": 76,
+          "flags": 14
+        }
+      ]
+    },
+    {
+      "name": "newline-and-final-cleanup",
+      "fileName": "newline-and-final-cleanup.bin",
+      "syntheticSource": "a\nb",
+      "cadence": "standard",
+      "seed": null,
+      "jobIdHex": "505152535455565758595a5b5c5d5e5f",
+      "byteLength": 416,
+      "actionCount": 10,
+      "totalSourceCharacters": 3,
+      "totalExpectedDurationUs": 1160000,
+      "payloadSha256": "5205834cea6ac2467d8d1e70f6dad39b706cbd6e47b8ff059ef0d38e25958eab",
+      "encodedSha256": "e2ea0c0eaf73f2b8f2946abaedb9adcf12c7b093a82720d834fbe24b5c12102f",
+      "records": [
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 200000,
+          "sourceIndex": 1,
+          "modifier": 0,
+          "keyCode": 4,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 30000,
+          "sourceIndex": 1,
+          "modifier": 0,
+          "keyCode": 41,
+          "flags": 10
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 290000,
+          "sourceIndex": 2,
+          "modifier": 0,
+          "keyCode": 40,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 90000,
+          "sourceIndex": 2,
+          "modifier": 2,
+          "keyCode": 74,
+          "flags": 10
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 90000,
+          "sourceIndex": 2,
+          "modifier": 2,
+          "keyCode": 74,
+          "flags": 10
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 30000,
+          "sourceIndex": 2,
+          "modifier": 0,
+          "keyCode": 76,
+          "flags": 10
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 200000,
+          "sourceIndex": 3,
+          "modifier": 0,
+          "keyCode": 5,
+          "flags": 9
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 30000,
+          "sourceIndex": 3,
+          "modifier": 0,
+          "keyCode": 41,
+          "flags": 14
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 90000,
+          "sourceIndex": 3,
+          "modifier": 3,
+          "keyCode": 77,
+          "flags": 14
+        },
+        {
+          "waitBeforeKeyDownUs": 0,
+          "keyDownHoldUs": 8000,
+          "waitAfterReleaseUs": 30000,
+          "sourceIndex": 3,
+          "modifier": 0,
+          "keyCode": 76,
+          "flags": 14
+        }
+      ]
+    }
+  ],
+  "invalid": [
+    {
+      "name": "checksum-corruption",
+      "fileName": "checksum-corruption.bin",
+      "basedOn": "small-standard",
+      "expectedError": "CHECKSUM_MISMATCH",
+      "byteLength": 448,
+      "encodedSha256": "28ed2f1f7f206f685b41007dadb0bee12c5e47b3276525cdb950debf7a80932c"
+    },
+    {
+      "name": "truncation",
+      "fileName": "truncation.bin",
+      "basedOn": "small-standard",
+      "expectedError": "PAYLOAD_SIZE_INVALID",
+      "byteLength": 447,
+      "encodedSha256": "3766b45722099e3532eccddd1bb2301dbb0843cbd7e7feddfb80f630ee321875"
+    },
+    {
+      "name": "incompatible-version",
+      "fileName": "incompatible-version.bin",
+      "basedOn": "small-standard",
+      "expectedError": "VERSION_INCOMPATIBLE",
+      "byteLength": 448,
+      "encodedSha256": "ff73a066c8806909b9550944e005ebb98a2bf5230599c811404e2b6daf46b118"
+    },
+    {
+      "name": "invalid-modifier",
+      "fileName": "invalid-modifier.bin",
+      "basedOn": "small-standard",
+      "expectedError": "MODIFIER_INVALID",
+      "byteLength": 448,
+      "encodedSha256": "360ded396f77bb18d1496b8e3b451625395b41c7d83a32bfe69fa897ffaecd19"
+    },
+    {
+      "name": "invalid-reserved-field",
+      "fileName": "invalid-reserved-field.bin",
+      "basedOn": "small-standard",
+      "expectedError": "RESERVED_FIELD_NONZERO",
+      "byteLength": 448,
+      "encodedSha256": "5767ea34600bcb96d73534dbdd586dd9be408de8937086144065adb9f5a181cb"
+    }
+  ],
+  "encodeOnlyInvalid": {
+    "name": "overflowing-delay",
+    "valueUs": 600000001,
+    "expectedError": "DELAY_INVALID"
+  }
+}

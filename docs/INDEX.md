@@ -1,0 +1,15 @@
+# Documentation
+
+- [Android app installation](APP_INSTALLATION.md)
+- [Hardware compatibility](HARDWARE_COMPATIBILITY.md)
+- [Firmware flashing](FIRMWARE_FLASHING.md)
+- [Device setup](DEVICE_SETUP.md)
+- [Daily use](DAILY_USE.md)
+- [Recovery](RECOVERY.md)
+- [Troubleshooting](TROUBLESHOOTING.md)
+- [Protocol overview](PROTOCOL.md)
+- [Local HTTP API](HTTP_API.md)
+- [Wi-Fi upload](WIFI_UPLOAD.md)
+- [Bluetooth identity API](BLUETOOTH_IDENTITY_API.md)
+- [RC3 hardware validation](RC3_HARDWARE_VALIDATION.md)
+- [RC3 release notes](RELEASE_NOTES_v1.0.0-rc3.md)

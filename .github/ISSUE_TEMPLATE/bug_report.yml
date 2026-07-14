@@ -1,0 +1,60 @@
+name: Bug report
+description: Report a reproducible Typx app, setup, protocol, or firmware problem.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Do not include credentials, device codes, licence tokens, captured source, recorder data, or private network identifiers.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: App and firmware version, such as v1.0.0-rc3.
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Mode
+      options:
+        - Phone Bluetooth HID
+        - ESP32-CAM dedicated hardware
+        - Windows setup or flashing
+        - Documentation or checksums
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Android version, Windows version, editor, language, and board details. Redact identifiers.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Use privacy-safe placeholder source if source text is relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I removed credentials, licence tokens, device codes, source content, recorder data, MAC/IP addresses, SSIDs, passwords, and personal paths.
+          required: true

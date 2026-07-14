@@ -1,0 +1,46 @@
+name: Hardware compatibility report
+description: Report results for the supported original ESP32-CAM target.
+title: "[Hardware]: "
+labels:
+  - hardware
+body:
+  - type: markdown
+    attributes:
+      value: The only current supported target is the original ESP32-based ESP32-CAM with 4 MB flash. Other boards are future work.
+  - type: input
+    id: board
+    attributes:
+      label: Board and SoC marking
+      description: Do not include MAC addresses, serial numbers, seller order details, or photos containing identifiers.
+    validations:
+      required: true
+  - type: input
+    id: programmer
+    attributes:
+      label: Programmer and connection
+      description: For example, ESP32-CAM-MB and USB data cable.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Firmware version
+      placeholder: v1.0.0-rc3
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Validation result
+      description: Describe flashing, hotspot join, BLE pairing, Prepare/READY/countdown/Execute, Stop, and recovery results.
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope confirmation
+      options:
+        - label: I have not described an untested board as supported.
+          required: true
+        - label: I removed all credentials, network identifiers, licence information, and personal paths.
+          required: true

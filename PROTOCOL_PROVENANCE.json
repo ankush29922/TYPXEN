@@ -1,0 +1,59 @@
+{
+    "androidSource":  {
+                          "repository":  "ankush29922/Typx-Android",
+                          "visibility":  "private",
+                          "note":  "Protocol artifacts were copied from the completed private Android source and independently checksummed for this public package."
+                      },
+    "snapshotDate":  "2026-07-14",
+    "scheduleFormatVersion":  1,
+    "artifacts":  [
+                      {
+                          "filename":  "docs/protocol/ESP32_CAM_PROTOCOL_V1.md",
+                          "sha256":  "26d013b501f2228d002b97698b672602c229736dfb3c18987cd6234be253ab6d"
+                      },
+                      {
+                          "filename":  "docs/protocol/ESP32_CAM_STATE_MACHINE.md",
+                          "sha256":  "55bc5a4f3b6256dce2481ecf1ae0ef7f1ecb2980aa157e2fc7635ae2f5e71905"
+                      },
+                      {
+                          "filename":  "docs/protocol/FIRMWARE_RELEASE_CONTRACT.md",
+                          "sha256":  "54170f136a996412410b83e53c949116f8d2150386d9ee66f62bcaeb132a458e"
+                      },
+                      {
+                          "filename":  "test_vectors/protocol-v1/checksum-corruption.bin",
+                          "sha256":  "28ed2f1f7f206f685b41007dadb0bee12c5e47b3276525cdb950debf7a80932c"
+                      },
+                      {
+                          "filename":  "test_vectors/protocol-v1/deterministic-personal.bin",
+                          "sha256":  "4a67a2b75cf812e33c08ab99b33266931e67d3ccdd9b88592a0a204a4383ca76"
+                      },
+                      {
+                          "filename":  "test_vectors/protocol-v1/incompatible-version.bin",
+                          "sha256":  "ff73a066c8806909b9550944e005ebb98a2bf5230599c811404e2b6daf46b118"
+                      },
+                      {
+                          "filename":  "test_vectors/protocol-v1/invalid-modifier.bin",
+                          "sha256":  "360ded396f77bb18d1496b8e3b451625395b41c7d83a32bfe69fa897ffaecd19"
+                      },
+                      {
+                          "filename":  "test_vectors/protocol-v1/invalid-reserved-field.bin",
+                          "sha256":  "5767ea34600bcb96d73534dbdd586dd9be408de8937086144065adb9f5a181cb"
+                      },
+                      {
+                          "filename":  "test_vectors/protocol-v1/newline-and-final-cleanup.bin",
+                          "sha256":  "e2ea0c0eaf73f2b8f2946abaedb9adcf12c7b093a82720d834fbe24b5c12102f"
+                      },
+                      {
+                          "filename":  "test_vectors/protocol-v1/small-standard.bin",
+                          "sha256":  "6a50f639ad7fa1da4d738179f0aa4c26ea4947720a5657bce4acdde68a9f9cea"
+                      },
+                      {
+                          "filename":  "test_vectors/protocol-v1/truncation.bin",
+                          "sha256":  "3766b45722099e3532eccddd1bb2301dbb0843cbd7e7feddfb80f630ee321875"
+                      },
+                      {
+                          "filename":  "test_vectors/protocol-v1/vectors.json",
+                          "sha256":  "6c9f87a259fe8ecf96c3e781e30576076cf9a9b0b00fbd842075e09ac4594025"
+                      }
+                  ]
+}

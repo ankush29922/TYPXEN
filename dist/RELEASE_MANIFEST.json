@@ -1,0 +1,60 @@
+{
+  "release": "v1.0.0-rc3",
+  "status": "Release Candidate - core workflow manually validated",
+  "firmwareVersion": "1.0.0-rc3",
+  "idfVersion": "v5.5.4",
+  "target": "esp32",
+  "board": "original ESP32 / ESP32-CAM",
+  "flashAddress": "0x0",
+  "flashMode": "dio",
+  "flashFrequency": "40m",
+  "flashSize": "4MB",
+  "protocolVersion": "1.0",
+  "scheduleFormatVersion": 1,
+  "validation": {
+    "date": "2026-07-14",
+    "scope": "one original ESP32-CAM",
+    "coreTypingAndSafety": "passed",
+    "batteryActivityDecrease": "experimental-not-observed",
+    "broadHardwareCompatibilityClaimed": false
+  },
+  "application": {
+    "sizeBytes": 1345216,
+    "partitionSizeBytes": 1536000,
+    "freeBytes": 190784
+  },
+  "binary": {
+    "file": "typxen-esp32cam-v1.0.0-rc3-merged.bin",
+    "sizeBytes": 1410752,
+    "sha256": "98176a6006435f9de9f35c52a7a39e58c63d194c690173fc6d8540d60bcbde93"
+  },
+  "embeddedImages": [
+    {
+      "name": "bootloader",
+      "offset": "0x1000",
+      "sourceFile": "bootloader/bootloader.bin",
+      "sizeBytes": 26160,
+      "sha256": "5fcdbcdcec8b6b513b79d8c685df3e2bf21b60c24e09f215aef2565aaeb67f48",
+      "magicHex": "e9",
+      "esptoolImage": true
+    },
+    {
+      "name": "partition-table",
+      "offset": "0x8000",
+      "sourceFile": "partition_table/partition-table.bin",
+      "sizeBytes": 3072,
+      "sha256": "1d2be49fb8ffe646b149ed4c2246b17e3df0f8260bf166410d10e9f87779bf47",
+      "magicHex": "aa50",
+      "esptoolImage": false
+    },
+    {
+      "name": "application",
+      "offset": "0x10000",
+      "sourceFile": "typx_esp32_cam.bin",
+      "sizeBytes": 1345216,
+      "sha256": "c106a0ad8b529608123177147c9a8d30bf273f53e6e1cee1d091f114936f9c04",
+      "magicHex": "e9",
+      "esptoolImage": true
+    }
+  ]
+}

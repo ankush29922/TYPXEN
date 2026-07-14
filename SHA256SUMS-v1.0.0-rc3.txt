@@ -1,0 +1,2 @@
+2dd5a0f842a19c5ecc0f1dcb3688ebf1d65915cad52728c8104e3aa9b0d38ac9  Typx-Offline-License-Polished.apk
+98176a6006435f9de9f35c52a7a39e58c63d194c690173fc6d8540d60bcbde93  typxen-esp32cam-v1.0.0-rc3-merged.bin
